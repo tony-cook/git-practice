@@ -1,14 +1,14 @@
 // Git push
 
-// logo = document.getElementById("logo")
+logo = document.getElementById("logo")
 
 
-// function changeBackground () {
-//     document.body.style.background = "white"
-// }
+function changeBackground () {
+    document.body.style.background = "white"
+}
 
-// logo.addEventListener('mouseover',changeBackground);
-// logo.addEventListener('mouseout', () => {document.body.style.background = "black"})
+logo.addEventListener('mouseover',changeBackground);
+logo.addEventListener('mouseout', () => {document.body.style.background = "black"})
 
 
 // Loops
@@ -24,6 +24,7 @@
 // Exercise 2
 // Try running a loop that does a console log of the numbers 10 – 1 in that order.
 
-for (let i=10; i>=1; i--) {
-    console.log(i);
-}
+// for (let i=10; i>=1; i--) {
+//     console.log(i);
+// }
+
